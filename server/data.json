@@ -6,12 +6,27 @@
     },
     {
         "img": "img/bouquet_cart21.png",
-        "title": "Персиковий нектар: лілії та троянди",
+        "title": "Сорбет: хризантеми та троянди",
         "price": 450
     },
     {
         "img": "img/bouquet_cart31.png",
         "title": "Yellow Song: соняшники та солідаго",
         "price": 455
-    }
+    },
+    {
+        "img": "img/bouquet_cart41.png",
+        "title": "Персиковий нектар: лілії та троянди",
+        "price": 455
+    },
+    {
+        "img": "img/bouquet_cart51.png",
+        "title": "Аврора: лілії та троянди",
+        "price": 460
+    },
+    {
+        "img": "img/bouquet_cart61.png",
+        "title": "Класика кохання: червоних троянд",
+        "price": 465
+    },
 ]
