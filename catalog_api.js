@@ -1,17 +1,15 @@
 async function loadBouquets() {
     try {
-        const response = await fetch("data.json");
-
+        const response = await fetch("server/data.json"); // якщо data.json у папці server
         const data = await response.json();
 
         console.log("Отримано:", data);
 
-        // ДУЖЕ ВАЖЛИВО → у JSONBin дані лежать у data.record
-        renderCatalog(data.record);
-
+        renderCatalog(data); // ✅ ПРАВИЛЬНО
     } catch (error) {
         console.error("Помилка завантаження:", error);
     }
 }
 
 loadBouquets();
+
