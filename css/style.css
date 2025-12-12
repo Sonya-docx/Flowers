@@ -303,6 +303,7 @@ h5 {
 .katalog {
   display: flex;
   justify-content: center;
+	margin-left: 400px;
   flex-wrap: wrap;
   padding: 20px;
 }
