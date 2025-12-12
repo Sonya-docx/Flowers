@@ -312,7 +312,7 @@ h5 {
 .part {
   display: flex;
   gap: 30px;
-  margin: 20px 100px;
+  margin: 20px 0;
 }
 
 .card {
