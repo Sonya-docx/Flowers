@@ -1,7 +1,7 @@
 async function loadBouquets() {
     try {
         const response = await fetch(
-            "https://api.jsonbin.io/v3/b/693c9619ae596e708f95ea86/latest"
+            "https://api.jsonbin.io/v3/b/693c9c1843b1c97be9ea339b/latest"
         );
 
         const data = await response.json();
