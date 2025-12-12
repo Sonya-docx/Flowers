@@ -301,11 +301,13 @@ h5 {
 }
 
 .catalog_dynamic {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  padding: 20px;
+    display: flex;
+    flex-wrap: wrap;      /* Дозволяє карткам переноситися */
+    justify-content: center;
+    gap: 30px;            /* Відступи між картками */
+    padding: 20px 0;
 }
+
 
 .part {
   display: flex;
@@ -314,20 +316,22 @@ h5 {
 }
 
 .card {
-  width: 260px;
-  background: #fff;
-  box-shadow: #FFC2C7 0px 2px 6px;
-  text-align: center;
-  padding-bottom: 20px;
-  overflow: hidden;
-  transition: 0.3s;
+    width: 300px;           /* Фіксована ширина, щоб не "тягнулася" */
+    border: 1px solid #f5cccc;
+    padding: 10px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    text-align: center;
 }
 
+
 .card img {
-  width: 100%;
-  height: 240px;
-  object-fit: cover;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
 }
+
 
 .card h3 {
   font-size: 18px;
