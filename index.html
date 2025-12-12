@@ -3,32 +3,48 @@
 <head>
 	<meta charset="utf-8" />
 	<title>Flowers</title>
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/normalize.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Styles -->
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/style-test.css">
+	<link rel="stylesheet" href="css/adaptive.css">
+	<!-- Fonts -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://use.typekit.net/rxg3xec.css">
+	<!-- Scrpipt -->
+	
 </head>
   <body >
       <header class="header">
-          <article class="logotype">
-              <img src="img/logo.png" alt="logo" class="logo">
-		  </article>
-		  <nav class="navigation">
-              <ul class="page-navigation">
-                  <li><a href=""> Каталог </a></li>
-                  <li><a href=""> Про нас </a></li>
-                  <li><a href=""> Створи букет </a></li>
-                  <li><a href=""> Контакти </a></li>
-              </ul>
-          </nav>
-          <article class="images">
-              <img src="img/lupa.png" alt="lupa" class="icon">
-              <img src="img/basket.png" alt="basket" class="icon">
-		  </article> 
+
+    <div class="burger" id="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <article class="logotype">
+        <img src="img/logo.png" alt="logo" class="logo">
+    </article>
+
+    <article class="images">
+        <img src="img/lupa.png" alt="search" class="icon">
+        <img src="img/basket.png" alt="basket" class="icon">
+    </article>
+
+    <nav class="navigation" id="navigation">
+        <ul class="page-navigation">
+            <li><a href="">Каталог</a></li>
+            <li><a href="">Про нас</a></li>
+            <li><a href="">Створи букет</a></li>
+            <li><a href="">Контакти</a></li>
+        </ul>
+    </nav>
+
 </header>
+
     <main class="main">
     	<section class="section_1">
     		<div class="section_1_content">
@@ -241,9 +257,9 @@
 	  </section>
     </main>
 	<footer class="footer">
-		<nav class="logotype__footer">
+		<div class="logotype__footer">
 			<img src="img/logo.png" alt="logo" class="logo">
-		</nav>
+		</div>
 		<nav class="footer__top">
 			<ul class="info">
 				<li>
