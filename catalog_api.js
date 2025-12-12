@@ -1,6 +1,6 @@
 async function loadBouquets() {
     try {
-        const response = await fetch("server/data.json"); // якщо data.json у папці server
+        const response = await fetch("data.json"); // якщо data.json у папці server
         const data = await response.json();
 
         console.log("Отримано:", data);
