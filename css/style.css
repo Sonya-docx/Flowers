@@ -303,7 +303,6 @@ h5 {
 .katalog {
   display: flex;
   justify-content: center;
-	margin-left: 400px;
   flex-wrap: wrap;
   padding: 20px;
 }
@@ -311,7 +310,7 @@ h5 {
 .part {
   display: flex;
   gap: 30px;
-  margin: 20px 0;
+  margin: 20px 100px;
 }
 
 .card {
