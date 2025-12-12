@@ -305,11 +305,6 @@ h5 {
     flex-wrap: wrap;      /* Дозволяє карткам переноситися */
     justify-content: center;
     gap: 80px;            /* Відступи між картками */
-<<<<<<< HEAD
-    padding: 20px 80px;
-=======
-    padding: 20px 70px;
->>>>>>> b666b7d2c000ea92f7fa5307d21f07b33bb12821
 }
 
 
