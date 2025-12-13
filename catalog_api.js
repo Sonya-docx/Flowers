@@ -1,6 +1,6 @@
 async function loadBouquets() {
     try {
-        const response = await fetch("data.json"); 
+        const response = await fetch("./data.json"); 
         const data = await response.json();
 
         console.log("Отримано:", data);
