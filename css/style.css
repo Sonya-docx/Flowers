@@ -308,20 +308,14 @@ h5 {
     align-items: start;
 }
 
-.card {
-    width: 100%;     
-    max-width: 320px; 
-    margin: 0 auto;  
-}
-
-
-.card {
+.card {     
+  max-width: 320px; 
+  margin: 0 auto;  
   width: 260px;
   background: #fff;
   box-shadow: #FFC2C7 0px 2px 6px;
   text-align: center;
   padding-bottom: 20px;
-  /* overflow: hidden; */
   transition: 0.3s;
 }
 
