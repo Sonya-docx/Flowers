@@ -309,7 +309,7 @@ h5 {
 
 .part {
   display: flex;
-  gap: 30px;
+  gap: 90px;
   margin: 20px 100px;
 }
 
@@ -322,7 +322,6 @@ h5 {
   overflow: hidden;
   transition: 0.3s;
 }
-
 
 .card img {
   width: 100%;
