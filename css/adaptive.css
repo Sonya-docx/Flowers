@@ -231,33 +231,29 @@
       margin-bottom: 20px;
     }
 
-    .catalog {
+    .catalog_dynamic {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 100px;
         padding: 0 10px;
     }
 
-    .catalog .part {
-        display: contents; 
-    }
-
-    .catalog .card {
+    .catalog_dynamic .card {
         width: 150px;
         margin-left: -70px;
     }
 
-    .catalog .card img {
+    .catalog_dynamic .card img {
         width: 100%;
         height: auto;
     }
 
-    .catalog .card h3 {
+    .catalog_dynamic .card h3 {
         font-size: 14px;
         line-height: 1.2;
     }
 
-    .catalog .card button {
+    .catalog_dynamic .card button {
         width: 70%;
         padding: 8px 0;
         font-size: 14px;
