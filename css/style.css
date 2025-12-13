@@ -300,13 +300,6 @@ h5 {
   margin-left: 200px;
 }
 
-/* .catalog_dynamic {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  padding: 20px;
-} */
-
 .catalog_dynamic {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
@@ -316,27 +309,16 @@ h5 {
 }
 
 .card {
-    width: 100%;      /* ⚠️ важливо для grid */
-    max-width: 320px; /* щоб не розтягувалась */
-    margin: 0 auto;   /* центрування всередині колонки */
-}
-
-
-.part {
-  display: flex;
-  gap: 90px;
-  margin: 20px 100px;
-}
-
-/* .card {
-  width: 260px;
+  width: 100%;     
+  max-width: 320px; 
+  margin: 0 auto;  
   background: #fff;
   box-shadow: #FFC2C7 0px 2px 6px;
   text-align: center;
   padding-bottom: 20px;
   overflow: hidden;
   transition: 0.3s;
-}*/
+}
 
 .card img {
   width: 100%;
